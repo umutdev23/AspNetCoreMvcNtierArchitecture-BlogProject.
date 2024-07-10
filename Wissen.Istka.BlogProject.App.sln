@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{A14D4E47-4209-4EC9-96EF-E53A62B76D83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{C8FF0EB8-0A1F-4845-803E-EEFF36C68C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1A6171A4-2516-4320-9E06-5189B8F9C703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wissen.Istka.BlogProject.App.Entity", "Wissen.Istka.BlogProject.App.Entity\Wissen.Istka.BlogProject.App.Entity.csproj", "{5F3DB829-3360-4D06-85DB-1BDABD53F8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wissen.Istka.BlogProject.App.DataAccess", "Wissen.Istka.BlogProject.App.DataAccess\Wissen.Istka.BlogProject.App.DataAccess.csproj", "{A7FE653E-9415-4DF2-844B-B44CB04B24B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wissen.Istka.BlogProject.App.Service", "Wissen.Istka.BlogProject.App.Service\Wissen.Istka.BlogProject.App.Service.csproj", "{AC975704-B793-44AE-8A1F-9BEA4A865866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wissen.Istka.BlogProject.App.WebMvcUI", "Wissen.Istka.BlogProject.App.WebMvcUI\Wissen.Istka.BlogProject.App.WebMvcUI.csproj", "{30F2A092-1403-4F4D-B785-90424480D511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F3DB829-3360-4D06-85DB-1BDABD53F8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3DB829-3360-4D06-85DB-1BDABD53F8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3DB829-3360-4D06-85DB-1BDABD53F8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3DB829-3360-4D06-85DB-1BDABD53F8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FE653E-9415-4DF2-844B-B44CB04B24B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FE653E-9415-4DF2-844B-B44CB04B24B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FE653E-9415-4DF2-844B-B44CB04B24B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FE653E-9415-4DF2-844B-B44CB04B24B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC975704-B793-44AE-8A1F-9BEA4A865866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC975704-B793-44AE-8A1F-9BEA4A865866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC975704-B793-44AE-8A1F-9BEA4A865866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC975704-B793-44AE-8A1F-9BEA4A865866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F2A092-1403-4F4D-B785-90424480D511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F2A092-1403-4F4D-B785-90424480D511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F2A092-1403-4F4D-B785-90424480D511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F2A092-1403-4F4D-B785-90424480D511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F3DB829-3360-4D06-85DB-1BDABD53F8E6} = {A14D4E47-4209-4EC9-96EF-E53A62B76D83}
+		{A7FE653E-9415-4DF2-844B-B44CB04B24B3} = {C8FF0EB8-0A1F-4845-803E-EEFF36C68C4C}
+		{AC975704-B793-44AE-8A1F-9BEA4A865866} = {C8FF0EB8-0A1F-4845-803E-EEFF36C68C4C}
+		{30F2A092-1403-4F4D-B785-90424480D511} = {1A6171A4-2516-4320-9E06-5189B8F9C703}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {096A279D-399D-4D45-93A3-49F361FE2EE3}
+	EndGlobalSection
+EndGlobal
